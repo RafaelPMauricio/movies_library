@@ -13,7 +13,7 @@ const Navbar = () => {
     
     if(!search) return
 
-    navigate(`search?q=${search}`)
+    navigate(`/movies_library/search?q=${search}`)
     setSearch("");
   }
 
